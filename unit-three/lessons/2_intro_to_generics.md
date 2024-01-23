@@ -51,7 +51,7 @@ module Storage {
 
 我们将在下一节中看到，在某些情况下，可以使用一种称为`phantom` 的特殊关键字来绕过此规则。
 
-*💡有关泛型类型的一些示例，请参阅 `example_projects`下的* [泛型项目](../example_projects/generics)*。*
+*💡有关泛型类型的一些示例，请参阅 `example_projects`下的* [泛型项目](../example_projects/generics/)*。*
 
 ### 在函数中使用Generics
 

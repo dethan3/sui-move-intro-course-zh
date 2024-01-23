@@ -10,16 +10,16 @@ Sui 中自定义同质化代币的实现将大量使用 Sui Framework中的一�
 
 ## **`sui::coin`**
 
-我们将在 Sui 上实现自定义同质化代币使用主要的库是 [sui::coin](https://github.com/MystenLabs/sui/blob/main/crates/sui-framework/docs/coin.md) 模块。
+我们将在 Sui 上实现自定义同质化代币使用主要的库是 [sui::coin](https://github.com/MystenLabs/sui/blob/main/crates/sui-framework/docs/sui-framework/coin.md) 模块。
 
 我们将在同质化代币示例中直接使用的资源或方法是：
 
-资源：[Coin](https://github.com/MystenLabs/sui/blob/main/crates/sui-framework/docs/coin.md#resource-coin)
+资源：[Coin](https://github.com/MystenLabs/sui/blob/main/crates/sui-framework/docs/sui-framework/coin.md#resource-coin)
 
-资源：[TreasuryCap](https://github.com/MystenLabs/sui/blob/main/crates/sui-framework/docs/coin.md#resource-treasurycap)
+资源：[TreasuryCap](https://github.com/MystenLabs/sui/blob/main/crates/sui-framework/docs/sui-framework/coin.md#resource-treasurycap)
 
-资源：[CoinMetadata](https://github.com/MystenLabs/sui/blob/main/crates/sui-framework/docs/coin.md#resource-coinmetadata)
+资源：[CoinMetadata](https://github.com/MystenLabs/sui/blob/main/crates/sui-framework/docs/sui-framework/coin.md#resource-coinmetadata)
 
-方法：[coin::create_currency](https://github.com/MystenLabs/sui/blob/main/crates/sui-framework/docs/coin.md#function-create_currency)
+方法：[coin::create_currency](https://github.com/MystenLabs/sui/blob/main/crates/sui-framework/docs/sui-framework/coin.md#function-create_currency)
 
 介绍一些新概念后，我们将更深入地重新审视以上内容。
